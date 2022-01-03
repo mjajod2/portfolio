@@ -63,7 +63,7 @@ class App extends React.Component {
                 <Rodal visible={this.state.visibleA} onClose={this.hideA}>
                   <span className="hah">
                   <a className="linkstyle" href="/images/mjn.pdf" target="_blank"
-                  style = {{textDecoration :'none', fontSize: '28px'}}>Click here to see my résumé</a><br/><br/>
+                  style = {{textDecoration :'none', fontSize: '28px'}}>Résumé</a><br/><br/>
                     Hi, thank you for checking out my website! My name is Mihir Jajodia, and i am currently a senior majoring in computer science at 
                     the University of Illinois at Chicago. <br/><br/>                     
                     Currently i'm seeking full-time opportunities starting Summer 2022.<br/><br/>
