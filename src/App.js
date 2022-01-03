@@ -76,20 +76,20 @@ class App extends React.Component {
               <button className="about" onClick={this.showP}>Projects</button>
                 <Rodal visible={this.state.visibleP} onClose={this.hideP}>
                   <span className="hah"> During my time as a CS student at UIC, i've had the chance to work on 
-                  many interesting projects, which can be found on my <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank"
+                  many interesting projects, which can be found on my <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none', fontSize: '28px'}}>GitHub</a><br/><br/> All my repositories are private, so I need to provide access to anyone interested in viewing my work. <br/>
                   </span>
                 </Rodal>
               <button className="about" onClick={this.showC}>Contact</button>
                 <Rodal visible={this.state.visibleC} onClose={this.hideC}>
                   <span className="hah">click on any of these links to check out my socials!</span><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://www.linkedin.com/in/mihir-jajodia-ba8050173/" target="_blank"
+                  <a className = "linkstyle" href = "https://www.linkedin.com/in/mihir-jajodia-ba8050173/" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>LinkedIn</a><br/><br/><br/><br/>
-                  <a className="linkstyle" href="mailto: mjajod2@uic.edu"target="_blank"
+                  <a className="linkstyle" href="mailto: mjajod2@uic.edu"target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>Email</a><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank"
+                  <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>GitHub</a><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://www.instagram.com/mihirjajodia/" target="_blank"
+                  <a className = "linkstyle" href = "https://www.instagram.com/mihirjajodia/" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>Instagram</a><br/><br/><br/><br/>
                 </Rodal>
             </div>    
